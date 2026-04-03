@@ -271,6 +271,8 @@ int main(array<System::String^>^ args) {
 
     Console::WriteLine("\nSistema cerrado correctamente.");
     Console::WriteLine("¡Gracias por usar el Sistema de Control de Torque!");
-
+    Console::WriteLine("Créditos: 1INF53-06M2 / MCh.");
+    Console::WriteLine("Presione cualquier tecla para terminar...");
+    Console::ReadKey();
     return 0;
 }
